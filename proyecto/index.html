@@ -701,53 +701,92 @@
         <div class="fi-card"><span class="fi-ico">💨</span> Silenciadores</div>
         <div class="fi-card"><span class="fi-ico">⚙️</span> Catalizadores</div>
         <!-- SVG pipe illustration -->
-        <svg class="main-pipe-svg" viewBox="0 0 420 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Main exhaust pipe body -->
-          <rect x="30" y="110" width="320" height="100" rx="10" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
-          <!-- Pipe sheen -->
-          <rect x="30" y="110" width="320" height="30" rx="10" fill="url(#sheen)"/>
-          <!-- Flange left -->
-          <rect x="10" y="95" width="40" height="130" rx="6" fill="#222" stroke="#444" stroke-width="1.5"/>
-          <!-- Exhaust tip right -->
-          <ellipse cx="380" cy="160" rx="18" ry="52" fill="#111" stroke="#555" stroke-width="2"/>
-          <ellipse cx="380" cy="160" rx="10" ry="40" fill="#0a0a0a"/>
-          <!-- Red accent stripe -->
-          <rect x="30" y="155" width="320" height="10" fill="url(#red-line)"/>
-          <!-- Bolts -->
-          <circle cx="50" cy="115" r="5" fill="#333" stroke="#555" stroke-width="1"/>
-          <circle cx="50" cy="205" r="5" fill="#333" stroke="#555" stroke-width="1"/>
-          <circle cx="320" cy="115" r="5" fill="#333" stroke="#555" stroke-width="1"/>
-          <circle cx="320" cy="205" r="5" fill="#333" stroke="#555" stroke-width="1"/>
-          <!-- Catalyst honeycomb hint -->
-          <rect x="100" y="120" width="120" height="80" rx="4" fill="#141414" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="120" y1="120" x2="120" y2="200" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="140" y1="120" x2="140" y2="200" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="160" y1="120" x2="160" y2="200" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="180" y1="120" x2="180" y2="200" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="200" y1="120" x2="200" y2="200" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="100" y1="140" x2="220" y2="140" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="100" y1="160" x2="220" y2="160" stroke="#2a2a2a" stroke-width="1"/>
-          <line x1="100" y1="180" x2="220" y2="180" stroke="#2a2a2a" stroke-width="1"/>
-          <text x="155" y="235" text-anchor="middle" fill="#555" font-family="Barlow,sans-serif" font-size="10" letter-spacing="2">CATALIZADOR</text>
-          <!-- Muffler section -->
-          <rect x="240" y="118" width="80" height="84" rx="5" fill="#161616" stroke="#2e2e2e" stroke-width="1.5"/>
-          <text x="280" y="165" text-anchor="middle" fill="#444" font-family="Barlow,sans-serif" font-size="9" letter-spacing="2">MUFLA</text>
-          <!-- Smoke puffs from tip -->
-          <circle cx="400" cy="130" r="14" fill="rgba(200,200,200,0.04)"/>
-          <circle cx="415" cy="105" r="10" fill="rgba(200,200,200,0.03)"/>
-          <circle cx="400" cy="190" r="18" fill="rgba(200,200,200,0.04)"/>
-          <defs>
-            <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
-              <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
-            </linearGradient>
-            <linearGradient id="red-line" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0%" stop-color="#e8271a"/>
-              <stop offset="50%" stop-color="#f05a1a"/>
-              <stop offset="100%" stop-color="#e8271a"/>
-            </linearGradient>
-          </defs>
-        </svg>
+        <svg class="main-pipe-svg" viewBox="0 0 520 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- TUBO PRINCIPAL -->
+  <rect x="20" y="115" width="460" height="70" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+  <rect x="20" y="115" width="460" height="20" rx="8" fill="url(#sheen)"/>
+  <!-- Franja roja central -->
+  <rect x="20" y="146" width="460" height="8" fill="url(#red-line)"/>
+
+  <!-- FLANGE IZQUIERDO -->
+  <rect x="8" y="100" width="28" height="100" rx="5" fill="#222" stroke="#444" stroke-width="1.5"/>
+  <circle cx="22" cy="112" r="4" fill="#333" stroke="#555" stroke-width="1"/>
+  <circle cx="22" cy="188" r="4" fill="#333" stroke="#555" stroke-width="1"/>
+
+  <!-- ===== 1. CATALIZADOR ===== -->
+  <rect x="50" y="108" width="110" height="84" rx="6" fill="#141414" stroke="#e8271a" stroke-width="1.5"/>
+  <!-- panal -->
+  <line x1="70"  y1="108" x2="70"  y2="192" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="90"  y1="108" x2="90"  y2="192" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="110" y1="108" x2="110" y2="192" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="130" y1="108" x2="130" y2="192" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50"  y1="128" x2="160" y2="128" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50"  y1="148" x2="160" y2="148" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="50"  y1="168" x2="160" y2="168" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- tornillos -->
+  <circle cx="58"  cy="116" r="4" fill="#333" stroke="#e8271a" stroke-width="1"/>
+  <circle cx="152" cy="116" r="4" fill="#333" stroke="#e8271a" stroke-width="1"/>
+  <circle cx="58"  cy="184" r="4" fill="#333" stroke="#e8271a" stroke-width="1"/>
+  <circle cx="152" cy="184" r="4" fill="#333" stroke="#e8271a" stroke-width="1"/>
+  <!-- etiqueta -->
+  <text x="105" y="210" text-anchor="middle" fill="#e8271a" font-family="Barlow,sans-serif" font-size="9" font-weight="700" letter-spacing="2">CATALIZADOR</text>
+
+  <!-- ===== 2. MUFLA ===== -->
+  <rect x="185" y="108" width="110" height="84" rx="6" fill="#161616" stroke="#f05a1a" stroke-width="1.5"/>
+  <!-- líneas internas ondas -->
+  <path d="M195 130 Q220 120 245 130 Q270 140 295 130" stroke="#2a2a2a" stroke-width="1.5" fill="none"/>
+  <path d="M195 150 Q220 140 245 150 Q270 160 295 150" stroke="#2a2a2a" stroke-width="1.5" fill="none"/>
+  <path d="M195 170 Q220 160 245 170 Q270 180 295 170" stroke="#2a2a2a" stroke-width="1.5" fill="none"/>
+  <!-- tornillos -->
+  <circle cx="193" cy="116" r="4" fill="#333" stroke="#f05a1a" stroke-width="1"/>
+  <circle cx="287" cy="116" r="4" fill="#333" stroke="#f05a1a" stroke-width="1"/>
+  <circle cx="193" cy="184" r="4" fill="#333" stroke="#f05a1a" stroke-width="1"/>
+  <circle cx="287" cy="184" r="4" fill="#333" stroke="#f05a1a" stroke-width="1"/>
+  <!-- etiqueta -->
+  <text x="240" y="210" text-anchor="middle" fill="#f05a1a" font-family="Barlow,sans-serif" font-size="9" font-weight="700" letter-spacing="2">MUFLA</text>
+
+  <!-- ===== 3. SILENCIADOR ===== -->
+  <rect x="318" y="108" width="110" height="84" rx="6" fill="#1a1a1a" stroke="#888" stroke-width="1.5"/>
+  <!-- cámaras internas -->
+  <line x1="355" y1="108" x2="355" y2="192" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="390" y1="108" x2="390" y2="192" stroke="#2a2a2a" stroke-width="1.5"/>
+  <rect x="326" y="120" width="21" height="60" rx="2" fill="#222"/>
+  <rect x="362" y="120" width="21" height="60" rx="2" fill="#222"/>
+  <rect x="397" y="120" width="21" height="60" rx="2" fill="#222"/>
+  <!-- tornillos -->
+  <circle cx="326" cy="116" r="4" fill="#333" stroke="#888" stroke-width="1"/>
+  <circle cx="420" cy="116" r="4" fill="#333" stroke="#888" stroke-width="1"/>
+  <circle cx="326" cy="184" r="4" fill="#333" stroke="#888" stroke-width="1"/>
+  <circle cx="420" cy="184" r="4" fill="#333" stroke="#888" stroke-width="1"/>
+  <!-- etiqueta -->
+  <text x="373" y="210" text-anchor="middle" fill="#888" font-family="Barlow,sans-serif" font-size="9" font-weight="700" letter-spacing="2">SILENCIADOR</text>
+
+  <!-- PUNTA DE ESCAPE -->
+  <ellipse cx="492" cy="150" rx="16" ry="42" fill="#111" stroke="#555" stroke-width="2"/>
+  <ellipse cx="492" cy="150" rx="9"  ry="30" fill="#0a0a0a"/>
+
+  <!-- HUMO -->
+  <circle cx="510" cy="128" r="13" fill="rgba(200,200,200,0.04)"/>
+  <circle cx="520" cy="108" r="9"  fill="rgba(200,200,200,0.03)"/>
+  <circle cx="510" cy="172" r="16" fill="rgba(200,200,200,0.04)"/>
+
+  <!-- FLECHA flujo izq→der -->
+  <text x="170" y="155" text-anchor="middle" fill="#e8271a" font-size="14" opacity="0.6">→</text>
+  <text x="305" y="155" text-anchor="middle" fill="#f05a1a" font-size="14" opacity="0.6">→</text>
+
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <linearGradient id="red-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#e8271a"/>
+      <stop offset="50%"  stop-color="#f05a1a"/>
+      <stop offset="100%" stop-color="#e8271a"/>
+    </linearGradient>
+  </defs>
+</svg>
         <!-- Badge -->
         <div class="hero-badge">
           <div class="bnum">CR</div>
@@ -779,7 +818,7 @@
         <span class="serv-num">02</span>
         <span class="serv-ico">♻️</span>
         <div class="serv-title">Catalizadores</div>
-        <p class="serv-desc">Reemplazo y reconstrucción de catalizadores. Reducimos emisiones contaminantes y aseguramos que tu vehículo pase la Riteve sin problemas.</p>
+        <p class="serv-desc">Reemplazo y reconstrucción de catalizadores. Reducimos emisiones contaminantes y aseguramos que tu vehículo pase DEKRA sin problemas.</p>
         <span class="cc-chip">Todas las marcas</span>
       </div>
       <div class="serv-card reveal" style="transition-delay:0.24s">
@@ -789,18 +828,18 @@
         <p class="serv-desc">Fabricación y soldadura de tuberías de escape a medida. Trabajamos con acero inoxidable y materiales de alta durabilidad.</p>
         <span class="cc-chip">Fabricación custom</span>
       </div>
-      <div class="serv-card reveal" style="transition-delay:0.32s">
+      <div class="serv-card reveal" style="transition-delay:0.40s">
         <span class="serv-num">04</span>
-        <span class="serv-ico">🏍️</span>
-        <div class="serv-title">Motos y Quads</div>
-        <p class="serv-desc">Servicio especializado para motocicletas, quads y vehículos de pequeño cilindraje. Desde 800cc con atención rápida y especializada.</p>
-        <span class="cc-chip">Desde 800cc</span>
+        <span class="serv-ico">🚗</span>
+        <div class="serv-title">Autos, SUV y Pickup</div>
+        <p class="serv-desc">Atendemos autos sedán, hatchback, SUV y pickup 4x4 de todas las marcas. Cambio de mufla, catalizador y silenciador con garantía incluida.</p>
+        <span class="cc-chip">800cc – 5.500cc</span>
       </div>
       <div class="serv-card reveal" style="transition-delay:0.40s">
         <span class="serv-num">05</span>
         <span class="serv-ico">🚛</span>
         <div class="serv-title">Vehículos de Carga</div>
-        <p class="serv-desc">Atendemos camiones, pickup 4x4 y vehículos de alto cilindraje hasta 5.500cc. Sistema de escape para trabajo pesado.</p>
+        <p class="serv-desc">Servicio especializado para camiones, furgones y vehículos de trabajo pesado. Sistema de escape resistente para alto rendimiento</p>
         <span class="cc-chip">Hasta 5.500cc</span>
       </div>
       <div class="serv-card reveal" style="transition-delay:0.48s">
@@ -819,15 +858,17 @@
   <div class="container">
     <div class="nos-grid">
       <div class="nos-visual reveal-l">
-        <div class="nos-frame">
-          <div class="nos-frame-inner">
-            <span class="pipe-big">🔩</span>
-          </div>
-          <div class="nos-overlay">
+      <div class="nos-frame">
+        <img 
+            src="taller.jpg" 
+            alt="Tecni-Muflas taller" 
+            style="width:100%; height:100%; object-fit:cover; display:block;"
+        />
+        <div class="nos-overlay">
             <p>Barrio La Cruz, San José</p>
             <h3>Tecni-Muflas CR</h3>
-          </div>
         </div>
+    </div>
         <div class="nos-badge">
           <div class="big">N°1</div>
           <div class="lbl">En sistema<br>de escape</div>
@@ -982,7 +1023,7 @@
           <h3>¡Cita Solicitada!</h3>
           <p>Gracias. Te contactaremos pronto por WhatsApp para confirmar tu cita en Tecni-Muflas.</p>
           <br>
-          <a href="https://wa.me/50600000000?text=Hola%20Tecni-Muflas,%20quiero%20confirmar%20mi%20cita" class="btn-primary" style="display:inline-flex;margin-top:0.5rem;" target="_blank">
+          <a href="https://wa.me/50689297373?text=Hola%20Tecni-Muflas,%20quiero%20confirmar%20mi%20cita" class="btn-primary" style="display:inline-flex;margin-top:0.5rem;" target="_blank">
             💬 Confirmar por WhatsApp
           </a>
         </div>
@@ -995,7 +1036,7 @@
 <div class="cta-strip reveal">
   <h2>🔊 ¿TU CARRO SUENA RARO?</h2>
   <p>No esperes más. Escríbenos ahora y te damos diagnóstico del escape sin costo.</p>
-  <a href="https://wa.me/50600000000?text=Hola%20Tecni-Muflas,%20quiero%20un%20diagnóstico%20del%20sistema%20de%20escape%20de%20mi%20vehículo" class="btn-white" target="_blank">💬 Escribir por WhatsApp</a>
+  <a href="https://wa.me/50689297373?text=Hola%20Tecni-Muflas,%20quiero%20un%20diagnóstico%20del%20sistema%20de%20escape%20de%20mi%20vehículo" class="btn-white" target="_blank">💬 Escribir por WhatsApp</a>
 </div>
 
 <!-- CONTACTO -->
@@ -1020,14 +1061,14 @@
             <div class="cont-ico">📞</div>
             <div>
               <h4>Teléfono</h4>
-              <a href="tel:+50600000000">+506 0000-0000</a>
+              <a href="tel:+506 8929-7373">+506 8929-7373</a>
             </div>
           </div>
           <div class="cont-card">
             <div class="cont-ico">💬</div>
             <div>
               <h4>WhatsApp</h4>
-              <a href="https://wa.me/50600000000" target="_blank">+506 0000-0000 — Chat directo</a>
+              <a href="https://wa.me/50689297373" target="_blank">+506 8929-7373 — Chat directo</a>
             </div>
           </div>
           <div class="cont-card">
@@ -1085,7 +1126,7 @@
       <div class="socials">
         <a href="#" class="soc">📘</a>
         <a href="#" class="soc">📸</a>
-        <a href="https://wa.me/50600000000" target="_blank" class="soc">💬</a>
+        <a href="https://wa.me/506 8929-7373" target="_blank" class="soc">💬</a>
       </div>
     </div>
     <div class="foot-col">
@@ -1111,8 +1152,8 @@
     <div class="foot-col">
       <h4>Contacto</h4>
       <ul>
-        <li><a href="tel:+50600000000">+506 0000-0000</a></li>
-        <li><a href="https://wa.me/50600000000" target="_blank">WhatsApp directo</a></li>
+        <li><a href="tel:+506 8929-7373">+506 8929-7373</a></li>
+        <li><a href="https://wa.me/50689297373" target="_blank">WhatsApp directo</a></li>
         <li><a href="#">Barrio La Cruz, San José</a></li>
         <li><a href="#">800cc – 5.500cc</a></li>
       </ul>
@@ -1126,7 +1167,7 @@
 
 <!-- WhatsApp flotante -->
 <div class="wa-float">
-  <a href="https://wa.me/50600000000?text=Hola%20Tecni-Muflas,%20quiero%20información%20sobre%20sus%20servicios" target="_blank" class="wa-btn" aria-label="WhatsApp Tecni-Muflas">💬</a>
+  <a href="https://wa.me/50689297373?text=Hola%20Tecni-Muflas,%20quiero%20información%20sobre%20sus%20servicios" target="_blank" class="wa-btn" aria-label="WhatsApp Tecni-Muflas">💬</a>
   <div class="wa-tip">¡Escríbenos, te atendemos ya!</div>
 </div>
 
